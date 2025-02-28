@@ -29,9 +29,9 @@ int main(){
         printf("\n");
     }
     printf("\n");
-    for(i=0; i<n; i++){
+    for(j=0; j<m; j++){
         sum = 0;
-        for(j=0; j<m; j++){
+        for(i=0; i<n; i++){
             sum += alloc[i][j];
         }
         avail[j] -= sum;
